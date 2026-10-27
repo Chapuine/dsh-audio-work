@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Audio artifacts (never commit media)
+workdir/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aiff
+*.srt
+*.txt
+!examples/*.txt
+!README.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env

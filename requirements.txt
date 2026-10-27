@@ -1,0 +1,16 @@
+# dsh-audio-work runtime dependencies
+# Core scripts only use stdlib; these are optional engines you can install.
+
+# Local speech-to-text (recommended, ~150MB model on first run)
+faster-whisper>=1.0.3
+
+# If you prefer OpenAI's original whisper instead:
+# openai-whisper>=20231117
+
+# piper neural TTS is a standalone binary (not pip):
+#   https://github.com/rhasspy/piper/releases
+# Or on macOS: `brew install piper`
+
+# ffmpeg must be installed separately:
+#   macOS:  brew install ffmpeg
+#   Ubuntu: sudo apt install ffmpeg
